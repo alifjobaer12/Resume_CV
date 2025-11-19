@@ -1,0 +1,188 @@
+%-------------------------
+% Resume in LaTeX
+% Author : Md Jobaer Islam Alif
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome5}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% -------- Section line (fixed) --------
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[{%
+    \color{black}\titlerule
+    \vspace{-5pt}
+}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+  \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+  \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeEducationHeading}[4]{
+  \vspace{-2pt}\item
+  \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+  \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \vspace{-2pt}\item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+  \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\sloppy
+
+%---------- HEADING ----------
+\begin{center}
+    \textbf{\Huge \scshape Md Jobaer Islam Alif} \\ \vspace{12pt}
+    \small
+    \faMobile* \hspace{2pt}\href{tel:+8801960024750}{+8801960024750}
+    $|$
+    \faEnvelope \hspace{2pt}\href{mailto:alifjobaer12@gmail.com}{alifjobaer12@gmail.com}
+    $|$
+    \faLinkedin \hspace{2pt}\href{https://www.linkedin.com/in/alifjobaer12}{LinkedIn}
+    $|$
+    \faGithub \hspace{2pt}\href{https://github.com/alifjobaer12}{GitHub}
+    $|$
+    \faOrcid \hspace{2pt}\href{https://orcid.org/0009-0001-3141-1772}{ORCID}
+    $|$
+    \faGlobe \hspace{2pt}\href{http://alifjobaer12.me}{Portfolio}
+    $|$
+    \faMapMarker* \hspace{2pt}Adabor, Dhaka, Bangladesh
+\end{center}
+
+%----------- EDUCATION -----------
+\section{Education}
+\resumeSubHeadingListStart
+
+\resumeEducationHeading
+{Bangladesh University of Business and Technology (BUBT)}{Dhaka, Bangladesh}
+{B.Sc. in Computer Science and Engineering}{2023 -- 2027}
+
+\resumeEducationHeading
+{Doweed Public School and College}{Jessore, Bangladesh}
+{Higher Secondary Certificate (HSC)}{2022}
+
+\resumeEducationHeading
+{Jessore Shikkha Bord Gov. Model School and College}{Jessore, Bangladesh}
+{Secondary School Certificate (SSC)}{2020}
+
+\resumeSubHeadingListEnd
+
+%----------- SKILLS -----------
+\section{Skills}
+
+\hspace{12pt}\textbf{Languages:} C, C++, Python, Java, JavaScript, SQL, HTML, CSS, LaTeX \\[4pt]
+\hspace{12pt}\textbf{Frameworks \& Tools:} React.js, Tailwind CSS, Node.js, Spring Boot, MySQL, Git, Figma, CustomTkinter \\[4pt]
+\hspace{12pt}\textbf{Core Competencies:} Backend Development, Competitive Programming, Data Structures \& Algorithms
+
+%----------- PROJECTS -----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{Portfolio Website} | \href{https://github.com/alifjobaer12/MyWebsite}{GitHub}}{}
+\resumeItemListStart
+    \resumeItem{Developed a responsive personal portfolio website showcasing projects, achievements, and skills. Live demo: \href{http://alifjobaer12.me/}{here}}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Productivity Tracker} | \href{https://github.com/alifjobaer12/project-productivity-tracker-}{GitHub}}{}
+\resumeItemListStart
+    \resumeItem{C/C++-based desktop productivity tool for tracking tasks, deadlines, and performance with efficient memory usage}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{ExchangeXP (Skill-Trading Platform)} | \href{https://github.com/alifjobaer12/ExchangeXP}{GitHub}}{}
+\resumeItemListStart
+    \resumeItem{Built a full-stack credit-based skill exchange platform including authentication, skill workflow, blogging, tier progression, and portfolio generation. Live demo: \href{https://exchangexp.netlify.app/}{here}}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{School Management System} | \href{https://github.com/alifjobaer12/School_Management_System}{GitHub}}{}
+\resumeItemListStart
+    \resumeItem{Developed a Python-based management system using CustomTkinter and MySQL to manage attendance, student records, and course data}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{ChronoMate} | \href{https://github.com/alifjobaer12/ChronoMate}{GitHub}}{}
+\resumeItemListStart
+    \resumeItem{Created a modern time-management desktop app using Python and MySQL with a polished CustomTkinter UI}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{JournalApp (Spring Boot Backend)} | \href{https://github.com/alifjobaer12/Journal_App}{GitHub}}{}
+\resumeItemListStart
+    \resumeItem{Implemented a secure backend with JWT authentication, role management, and modular RESTful APIs for journal entry operations}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%----------- EXPERIENCE -----------
+\section{Experience}
+\resumeSubHeadingListStart
+    \resumeItem{Actively building full-stack and backend projects; seeking opportunities for internships and professional experience}
+\resumeSubHeadingListEnd
+
+%----------- AWARDS & ACHIEVEMENTS -----------
+\section{Awards \& Achievements}
+
+\hspace{12pt}\textbf{Intra-University Programming Contests:} Participated in 3 programming contests organized within my university, showcasing strong problem-solving and algorithmic thinking \\[4pt]
+\hspace{12pt}\textbf{Intra-University Hackathon:} Participated in a university-organized hackathon, collaborating with a team to design and build an innovative project under time constraints
+
+\end{document}
