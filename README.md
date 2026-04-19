@@ -4,17 +4,28 @@ A clean and professionally typeset resume built using **LaTeX**, designed for so
 
 ---
 
-##  Resume Preview
+## Resume Preview
 
 <div align="center">
-  <img src="jpg/cv-preview.png" alt="CV Preview" width="650"/>
+  <img src="jpg/cv-preview-page-1.png" alt="CV Preview - Page 1" width="650"/>
+  <br/>
+  <br/>
+  <img src="jpg/cv-preview-page-2.png" alt="CV Preview - Page 2" width="650"/>
 </div>
 
 ---
 
 ## 📄 Download Resume
 
-👉 **[Click here to download the PDF](./Md_Jobaer_Islam_Alif_Resume.pdf)**
+👉 **[Click here to download the PDF](./main.pdf)**
+
+### Quick Access
+- **Direct file:** [main.pdf](./main.pdf)
+- **View source:** [main.tex](./main.tex)
+- **All files:** [Repository root](./)
+
+### Optional: Releases
+If you publish tagged releases, add resume PDFs there so recruiters can always get a versioned download link.
 
 ---
 
@@ -23,8 +34,9 @@ A clean and professionally typeset resume built using **LaTeX**, designed for so
 | File | Description |
 |------|-------------|
 | `main.tex` | Main LaTeX source |
-| `Md_Jobaer_Islam_Alif_Resume.pdf` | Compiled resume |
-| `jpg/cv-preview.png` | Resume preview image |
+| `main.pdf` | Compiled resume |
+| `jpg/cv-preview-page-1.png` | Resume preview page 1 |
+| `jpg/cv-preview-page-2.png` | Resume preview page 2 |
 | `README.md` | This file |
 
 ---
