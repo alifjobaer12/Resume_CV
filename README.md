@@ -8,9 +8,6 @@ A clean and professionally typeset resume built using **LaTeX**, designed for so
 
 <div align="center">
   <img src="jpg/cv-preview-page-1.png" alt="CV Preview - Page 1" width="650"/>
-  <br/>
-  <br/>
-  <img src="jpg/cv-preview-page-2.png" alt="CV Preview - Page 2" width="650"/>
 </div>
 
 ---
