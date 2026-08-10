@@ -30,8 +30,8 @@
 \addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
-\addtolength{\textheight}{1in}
+\addtolength{\topmargin}{-.65in}
+\addtolength{\textheight}{1.3in}
 
 \urlstyle{same}
 \raggedbottom
@@ -40,10 +40,10 @@
 
 % -------- Section line (fixed) --------
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
+  \vspace{-6pt}\scshape\raggedright\large
 }{}{0em}{}[{%
     \color{black}\titlerule
-    \vspace{-5pt}
+    \vspace{-7pt}
 }]
 
 \pdfgentounicode=1
@@ -51,14 +51,14 @@
 %-------------------------
 % Custom commands
 
-\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-3pt}}}}
 
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
   \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-  \end{tabular*}\vspace{-7pt}
+  \end{tabular*}\vspace{-8pt}
 }
 
 \newcommand{\resumeEducationHeading}[4]{
@@ -66,19 +66,19 @@
   \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-  \end{tabular*}\vspace{-5pt}
+  \end{tabular*}\vspace{-6pt}
 }
 
 \newcommand{\resumeProjectHeading}[2]{
   \vspace{-2pt}\item
   \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & #2 \\
-  \end{tabular*}\vspace{-7pt}
+  \end{tabular*}\vspace{-8pt}
 }
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[label={}]}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 %-------------------------------------------
@@ -86,12 +86,13 @@
 
 \begin{document}
 \sloppy
+\linespread{0.84}\selectfont
 
 %---------- HEADING ----------
 \begin{center}
-    \textbf{\Huge \scshape Md Jobaer Islam Alif} \\ \vspace{12pt}
+    \textbf{\Huge \scshape Md Jobaer Islam Alif} \\ \vspace{8pt}
     \small
-    \faMobile* \hspace{2pt}\href{tel:+8801960024750}{+8801960024750}
+    \faMobile* \hspace{2pt}\href{tel:+8801960024750}{+880 1960-024750}
     $|$
     \faEnvelope \hspace{2pt}\href{mailto:alifjobaer12@gmail.com}{alifjobaer12@gmail.com}
     $|$
@@ -99,7 +100,7 @@
     $|$
     \faGithub \hspace{2pt}\href{https://github.com/alifjobaer12}{GitHub}
     $|$
-    \faOrcid \hspace{2pt}\href{https://orcid.org/0009-0001-3141-1772}{ORCID}
+    \faCode \hspace{2pt}\href{https://codeforces.com/profile/alifjobaer12}{Codeforces}
     $|$
     \faGlobe \hspace{2pt}\href{http://alifjobaer12.me}{Portfolio}
     $|$
@@ -108,7 +109,7 @@
 
 %----------- SUMMARY -----------
 \section{Professional Summary}
-\hspace{12pt}Computer Science and Engineering undergraduate focused on full-stack development with practical experience building REST APIs, responsive frontend interfaces, and database-driven applications. A fast learner with a keen interest in UI/UX design, possessing strong teamwork, communication skills, and a passion for exploring new technologies.
+\hspace{12pt}Computer Science and Engineering undergraduate focused on full-stack development, REST APIs, responsive interfaces, and database-driven applications. Fast learner interested in UI/UX design, teamwork, communication, and exploring new technologies.
 
 %----------- EDUCATION -----------
 \section{Education}
@@ -131,10 +132,10 @@
 %----------- SKILLS -----------
 \section{Skills}
 
-\hspace{12pt}\textbf{Programming Languages:} C, C++, Python, Java, JavaScript, SQL, HTML/CSS, LaTeX \\[4pt]
-\hspace{12pt}\textbf{Frameworks \& Platforms:} React.js, Next.js, Node.js, Express.js, Spring Boot, Tailwind CSS, CustomTkinter \\[4pt]
-\hspace{12pt}\textbf{Databases \& Tools:} MySQL, MongoDB, Git, GitHub, Postman, Figma \\[4pt]
-\hspace{12pt}\textbf{Core Strengths:} Responsive Web Design, UI/UX Principles, REST API Design, Backend Architecture, Problem Solving \\[4pt]
+\hspace{12pt}\textbf{Programming Languages:} C, C++, Python, Java, JavaScript, SQL, HTML/CSS, LaTeX \\[2pt]
+\hspace{12pt}\textbf{Frameworks \& Platforms:} React.js, Next.js, Node.js, Express.js, Spring Boot, Tailwind CSS, CustomTkinter \\[2pt]
+\hspace{12pt}\textbf{Databases \& Tools:} MySQL, MongoDB, Git, GitHub, Postman, Figma \\[2pt]
+\hspace{12pt}\textbf{Core Strengths:} Responsive Web Design, UI/UX Principles, REST API Design, Backend Architecture, Problem Solving \\[2pt]
 \hspace{12pt}\textbf{Soft Skills:} Team Collaboration, Effective Communication, Adaptability \& Continuous Learning
 
 %----------- PROJECTS -----------
@@ -144,37 +145,9 @@
 \resumeProjectHeading
 {\textbf{Meal Khata} | \href{https://github.com/Rakibislam22/Smart-Bachelor-Life}{GitHub}}{}
 \resumeItemListStart
-    \resumeItem{Developed a collaborative full-stack application to streamline bachelor accommodation management, featuring daily meal tracking, shared expense calculations, and automated billing}
-    \resumeItem{Developed a collaborative full-stack Android application to streamline bachelor accommodation management, featuring daily meal tracking, shared expense calculations, and automated billing}
-    \resumeItem{Contributed to building responsive, user-friendly frontend interfaces and integrating them with secure backend REST APIs, emphasizing clean UI/UX and teamwork}
-\resumeItemListEnd
-
-\resumeProjectHeading
-{\textbf{Network Attack Prediction Pipeline} | \href{https://github.com/alifjobaer12/Detection-and-Prediction-of-Multi-Class-Hacking-Attacks-Using-Artificial-Neural-Networks}{GitHub}}{}
-\resumeItemListStart
-    \resumeItem{Built a production-ready Python machine-learning pipeline for CICIDS2017 network attack classification with preprocessing, training, and prediction workflows}
-    \resumeItem{Organized the project into reusable modules for model training, inference, and artifact generation to support maintainable experimentation}
-\resumeItemListEnd
-
-\resumeProjectHeading
-{\textbf{Smart Bachelor Life Frontend} | \href{https://github.com/alifjobaer12/Frontend_Smart_Bachelor_Life}{GitHub}}{}
-\resumeItemListStart
-    \resumeItem{Developed responsive frontend interfaces for bachelor/flat management workflows including meal tracking, expenses, and group operations}
-    \resumeItem{Integrated UI with backend APIs and structured reusable components to improve maintainability and user experience}
-\resumeItemListEnd
-
-\resumeProjectHeading
-{\textbf{Backend Smart Bachelor Life} | \href{https://github.com/alifjobaer12/Backend_Smart_Bachelor_Life}{GitHub}}{}
-\resumeItemListStart
-    \resumeItem{Built a production-style REST API for shared bachelor/flat management covering authentication, group roles, meal tracking, bazar, expenses, chat, and payment workflows}
-    \resumeItem{Implemented middleware-based request handling and structured route/controller organization to improve maintainability and feature scalability}
-\resumeItemListEnd
-
-\resumeProjectHeading
-{\textbf{Bank App Backend} | \href{https://github.com/alifjobaer12/Bank_App_Server}{GitHub}}{}
-\resumeItemListStart
-    \resumeItem{Built a Node.js and Express backend for banking-style workflows with modular routes, middleware, and structured API handling}
-    \resumeItem{Implemented core service endpoints and request validation patterns to support secure and maintainable backend development}
+    \resumeItem{Developed collaborative full-stack web and Android applications for bachelor accommodation management}
+    \resumeItem{Implemented daily meal tracking, shared expense calculations, and automated billing}
+    \resumeItem{Built responsive interfaces integrated with secure REST APIs, emphasizing clean UI/UX and teamwork}
 \resumeItemListEnd
 
 \resumeProjectHeading
@@ -206,5 +179,26 @@
 
 \hspace{12pt}\textbf{Intra-University Programming Contests:} Participated in 3 programming contests organized within my university, showcasing strong problem-solving and algorithmic thinking \\[4pt]
 \hspace{12pt}\textbf{Intra-University Hackathon:} Participated in a university-organized hackathon, collaborating with a team to design and build an innovative project under time constraints
+
+%----------- REFERENCES -----------
+\section{References}
+\noindent
+\begin{minipage}[t]{0.48\textwidth}
+    \textbf{Shamim Ahmed} \\
+    \textit{\small Assistant Professor, Department of CSE} \\
+    \small Bangladesh University of Business and Technology \\
+    shamim.a@bubt.edu.bd \\
+    +880 1672-917779 \\
+    Dhaka, Bangladesh
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+    \textbf{Ahmed Shafkat} \\
+    \textit{\small Assistant Professor, CSE; CEO, BookShelf 365} \\
+    \small Bangladesh University of Business and Technology \\
+    ahmedshafkat@bubt.edu.bd \\
+    +880 1711-871723 \\
+    Dhaka, Bangladesh
+\end{minipage}
 
 \end{document}
