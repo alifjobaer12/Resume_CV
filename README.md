@@ -32,8 +32,7 @@ If you publish tagged releases, add resume PDFs there so recruiters can always g
 |------|-------------|
 | `main.tex` | Main LaTeX source |
 | `main.pdf` | Compiled resume |
-| `jpg/cv-preview-page-1.png` | Resume preview page 1 |
-| `jpg/cv-preview-page-2.png` | Resume preview page 2 |
+| `jpg/cv-preview-page-1.png` | Resume preview (single page) |
 | `README.md` | This file |
 
 ---
@@ -60,7 +59,7 @@ pdflatex main.tex
 ## 👤 About Me
 - **Email:** alifjobaer12@gmail.com  
 - **LinkedIn:** https://www.linkedin.com/in/alifjobaer12  
-- **Portfolio:** http://alifjobaer12.me 
+- **Portfolio:** http://alifjobaer12.vercel.app 
 - **GitHub:** https://github.com/alifjobaer12  
 
 ---
